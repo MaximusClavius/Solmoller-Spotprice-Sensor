@@ -9,12 +9,12 @@ now:
   show: true
   label: Nu
 header:
-  title: Prognose på spotpriser (kr/kWh)
+  title: Grønnere elforbrugs prognose på spotpriser (kr/kWh)
   show: true
 experimental:
   color_threshold: true
 series:
-  - entity: sensor.prognose_pa_el_priser_for_vestdanmark_dk1
+  - entity: sensor.gronnere_elforbrug_spotpris_dk1
     type: area
     opacity: 0.7
     stroke_width: 2
