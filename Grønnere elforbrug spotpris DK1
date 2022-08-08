@@ -1,6 +1,6 @@
 sensor:
   - platform: command_line
-    name: Prognose på el priser for Vestdanmark/DK1
+    name: Grønnere elforbrug spotpris DK1
     command: 'curl -s https://raw.githubusercontent.com/solmoller/Spotprisprognose/main/prognose.json'
     scan_interval:
         hours: 2
@@ -8,3 +8,4 @@ sensor:
     value_template: '{% if value_json is not none %}OK {{value_json["Forecast created"]}}{% else %}Unavailable{% endif %}'
     json_attributes:
       - DK1
+      
