@@ -9,4 +9,4 @@ Bemærk der både er data for DK1 og DK2, så er man interesseret i data for DK2
 Diagramet bruger grøn, gul og rød farve for at markere forskelle pris, hvor grøn er lavest og rød højest. Nærværende diagram viser DK1 og ønsker man DK2 skal DK1 byttes med DK2 under data_generator for diagrammet (såfremt det findes under json_attributes på sensor).
 Beskrevet diagram ligner dette:
 
-![image](https://user-images.githubusercontent.com/103023823/183309344-2bd09143-c189-4f97-882a-ad02583a04ba.png)
+![image](https://user-images.githubusercontent.com/103023823/183420148-10577d41-54ba-41e4-a32d-a9570fd535de.png)
