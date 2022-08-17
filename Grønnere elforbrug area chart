@@ -20,7 +20,7 @@ series:
     stroke_width: 2
     data_generator: |
       var data = entity.attributes.DK1.map((start, index) => {
-        return [new Date(start["Time"]).getTime(), entity.attributes.DK1[index]["Price"] / 1000 * 7.44 * 1.25];
+        return [new Date(start["Time"]).getTime() + 2 * 60 * 60 * 1000, entity.attributes.DK1[index]["Price"] / 1000 * 7.44 * 1.25];
       });
       return data;
     color_threshold:
