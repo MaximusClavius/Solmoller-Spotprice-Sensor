@@ -12,3 +12,6 @@ Bemærk der både er data for DK1 og DK2, så er man interesseret i data for DK2
 Beskrevet diagram ligner dette:
 
 ![image](https://user-images.githubusercontent.com/103023823/183561276-8a567a09-59d7-4817-9c88-9c9f3ae99605.png)
+
+PS
+Viser diagrammet "Loading" i stedet for data fra sensor, så er formentlig noget gal med formattering af koden eller ikke komplet kopiering. Vælg ikon "Copy raw content" på Github, og brug Ctrl+a for at markere al tekst og indsæt/erstat med Ctrl+v...
