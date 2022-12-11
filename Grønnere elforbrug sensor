@@ -1,6 +1,6 @@
 sensor:
   - platform: command_line
-    name: Grønnere elforbrug spotpris DK1
+    name: Grønnere elforbrug prognose DK1
     command: 'curl -s https://raw.githubusercontent.com/solmoller/Spotprisprognose/main/prognose.json'
     scan_interval:
         hours: 2
