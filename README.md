@@ -1,5 +1,5 @@
 # Grønnere elforbrug prognose DK1
-7 day forecast on spot prices for electricity/7 dags prognose på spotpriser på el
+7 dags prognose på spotpriser på el
 
 En prognose udviklet af Henrik Møller Jørgensen, https://github.com/solmoller/Spotprisprognose. Vi samarbejder om at få data i Homeassistant på en ubesværet måde...
 Spotpriser er i €/MWh, så i kr/kWh skal der / 1000 * 7.44 * 1.25 (1000 -> til kWh, 7.44 kurs på €, 1.25 med moms). Tiden er angivet i UTC. Bemærk der både er data for DK1 og DK2, så er man interesseret i data for DK2 skal man ændre DK1 til DK2 under json_attributes for sensoren eller tilføje begge.
