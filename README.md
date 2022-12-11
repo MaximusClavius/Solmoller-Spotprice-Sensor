@@ -1,4 +1,4 @@
-# Grønnere elforbrug spotpris DK1
+# Grønnere elforbrug prognose DK1
 7 day forecast on spot prices for electricity/7 dags prognose på spotpriser på el
 
 En prognose udviklet af Henrik Møller Jørgensen, https://github.com/solmoller/Spotprisprognose. Vi samarbejder om at få data i Homeassistant på en ubesværet måde...
