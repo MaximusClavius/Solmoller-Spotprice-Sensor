@@ -14,7 +14,7 @@ header:
 experimental:
   color_threshold: true
 series:
-  - entity: sensor.gronnere_elforbrug_spotpris_dk1
+  - entity: sensor.gronnere_elforbrug_prognose_dk1
     type: area
     opacity: 0.7
     stroke_width: 2
